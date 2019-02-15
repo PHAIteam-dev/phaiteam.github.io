@@ -1846,6 +1846,10 @@ h5 + .separator {
   color: #ffffff;
 }
 
+.timeline-date-label.with-month {
+  width: 160px;
+}
+
 .timeline-date-label:after {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
