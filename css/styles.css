@@ -10086,15 +10086,6 @@ p.lead {
   font-size: 4rem;
 }
 
-.tool-image {
-  width: 70px;
-  height: 70px;
-  margin: 0 auto;
-  padding: 5px;
-  position: relative;
-  filter: grayscale(99%) contrast(100%) brightness(1);
-}
-
 .team-member {
   margin-bottom: 3rem;
   text-align: center;
@@ -10127,6 +10118,27 @@ p.lead {
   border-radius: 50% !important;
   background: #d6cece;
 }
+
+.tool-image {
+  border-radius: 50%!important;
+  /* background-color: #bd5d38; */
+  padding: 13px;
+  margin: 0 auto;
+  position: relative;
+  /* filter: grayscale(99%) contrast(100%) brightness(1); */
+}
+
+.list-inline-item figure div {
+  /* color: #888888; */
+  /* color: white !important */
+}
+
+figure div svg {
+  fill: currentColor;
+  height: 3rem;
+  width: 3rem;
+}
+
 
 section.resume-section {
   display: flex;
